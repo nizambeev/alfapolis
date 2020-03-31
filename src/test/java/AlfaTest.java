@@ -8,7 +8,7 @@ public class AlfaTest extends TestConfigurations{
     public void auth() {
         LoginPage loginPage = new LoginPage();
 
-        loginPage.sendUsername("Admin");
+        loginPage.sendUsername("Test");
         loginPage.sendPassword("password");
         loginPage.clickCheckBoxRemember();
         loginPage.clickButtonLogin();
